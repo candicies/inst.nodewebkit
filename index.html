@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Evernote Node-Webkit</title>
+	
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="stylesheets/style.less">
+	
+</head>
+<body>
+	<div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+        	<div class="result hide masthead clearfix">
+        		<div class="inner">
+	              <h3 class="masthead-brand">My Photos</h3>
+	              <ul class="nav masthead-nav">
+	                <li class="backup hide">
+	                	<input id="file-chooser" type="file" nwdirectory style="display:none;" />
+	                	<button type="button" class="btn backup-btn" data-loading-text="Being Backed Up..." autocomplete="off">BackUp</button>
+	                </li>
+	                <!--
+	                <li class="logout">
+	                	<button class="btn">LogOut</button
+	                </li>
+	                -->
+	              </ul>
+	            </div>
+	       	</div>
+	        <div class="inner cover">
+	        	<div class="loading-icon"></div>
+	          	<div id="login">
+	          		<h1 class="cover-heading">Yo, Instagram!</h1>
+		            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+		            <p class="lead">
+		              <button class="btn btn-info" id='instagram'>Get instagram photos</button>
+		            </p>
+	          	</div>
+	            <div id="show-photos" class="result hide">
+	            	<div class="row">
+					  
+					</div>
+	            </div>
+	        </div>
+	        <div class="mastfoot">
+	            <div class="inner">
+	              <p> @Company 2014</p>
+	            </div>
+	        </div>
+        </div>
+      </div>
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/hello/dist/hello.all.js"></script>
+    <script src="bower_components/hello/src/modules/instagram.js"></script>
+
+  	<script src="js/index.js"></script>
+</body>
+</html>

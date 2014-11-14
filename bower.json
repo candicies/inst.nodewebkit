@@ -1,0 +1,22 @@
+{
+  "name": "inst.nodewebkit",
+  "version": "0.0.1",
+  "dependencies": {
+  	"bootstrap": "~3.1.1",
+  	"jquery": "~1.11.0",
+  	"hello":"*"
+  },
+  "devDependencies": {},
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "dist/css/bootstrap*.min.css",
+      "css/../fonts": "dist/fonts/*",
+      "js": "dist/js/*.js"
+    },
+    "jquery": {
+      "js": "dist/jquery.*"
+    },
+    "*": {}
+  }
+}
+

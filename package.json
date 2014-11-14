@@ -1,0 +1,31 @@
+{
+  "name": "test2.nodewebkit",
+  "version": "0.0.1",
+  "main": "app://htdocs/index.html",
+  "window": {
+  	"icon": "images/app.png",
+    "show": true,
+    "position": "center",
+    "width": 500,
+    "height": 500,
+    "min_width": 500,
+    "min_height": 500
+  },
+  "dependencies": {
+  	"request": "~2.47.0",
+  	"nodewebkit": "~0.10.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-rename": "0.0.3",
+    "grunt-contrib-compress": "~0.9.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-bower-task": "~0.4.0",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1",
+    "concat-files": "~0.1.0"
+  }
+}
