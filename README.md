@@ -20,9 +20,9 @@ $ npm install
 * Modify app key in config.json
 ```json
 {
-"CLIENT_ID" : "9422xxxxxxxxxxxxxxxxxxxxxx6110",
-"CLIENT_SECRET" : "8de3xxxxxxxxxxxxxxxxxxxxxcade8d",
-"REDIRECT_URI" : "Your WebSite URL"
+  "CLIENT_ID" : "9422xxxxxxxxxxxxxxxxxxxxxx6110",
+  "CLIENT_SECRET" : "8de3xxxxxxxxxxxxxxxxxxxxxcade8d",
+  "REDIRECT_URI" : "Your WebSite URL"
 }
 ```
 
@@ -30,3 +30,6 @@ $ npm install
 ```shell
 $ nodewebkit ./
 ```
+
+### Run the desktop application on Mac
+* Download BackupInst.app and then install it.
